@@ -1,0 +1,21 @@
+{
+  "name": "zoom-translation-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2",
+    "winston": "^3.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "@google-cloud/translate": "^8.0.2",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
